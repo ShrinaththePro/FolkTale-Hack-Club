@@ -112,6 +112,11 @@ while True:
     elif Choice_2 == "look down":
         print("You look down and see a deteriorating floor made of stone bricks.")
 
+# This line was added because an error was coming when you typed 1 directional and 2 choice for directional
+
+    if Choice_2 in ["look up", "look down", "look left", "look right", "look forward"]:
+        continue
+
 
 
 
@@ -213,8 +218,9 @@ while True:
         hint = hint - 1
         print(f"Hmmm, if only there was a conveniently placed tool under the floor that could fix the water flow of the toilet 🤔🤔🤔. You have {hint} hints left")
 
+# This one is because apparently it takes these values as truthy values or smt, still don't get it
 
-    elif Choice_1 == "hint" or Choice_2 == "hint" and "prison_clothes" not in inventory and hint >= 1:
+    elif (Choice_1 == "hint" or Choice_2 == "hint") and "prison outfit" not in inventory and hint >= 1:
         count = count + 2
         hint = hint - 1
         print(f"Hmmm, if only there was a conveniently placed tool under the floor that could fix the water flow of the toilet 🤔🤔🤔. You have {hint} hints left")
