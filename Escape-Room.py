@@ -2,6 +2,9 @@
 #Go ask if its too hard and hints are necessary
 #I prob have to be better with github :()
 #Have to do all the imported time sequences
+#Yeah so next time I'm using key value pairs
+#I also forgot to fix the when hint is in dialogue
+
 
 import time 
 import sys
