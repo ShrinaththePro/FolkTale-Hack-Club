@@ -17,7 +17,7 @@ print("Welcome to escape room!")
 
 while True:
     time.sleep(0.7)
-    room = input("What room would you like to escape from? (Jail Cell, Office, Car, or Garage)").strip().lower()
+    room = input("What room would you like to escape from? (Jail Cell, Office, Car, or Garage (This entire escape room is not case sensitive!))").strip().lower()
     if room == "jail cell":
         time.sleep(0.5)
         print("Are you ready? Then let's start!")
@@ -46,7 +46,7 @@ print()
 #quit = "quit"
 #sys.exit()
 time.sleep(2)
-print("You wake up with a sharp pain, laying on a frigid brick floor.  A musty smell of an old basement runs through your nose. You have no idea where you are  or how you got here. ")
+print("You wake up with a sharp pain, laying on a frigid brick floor. A musty smell of an old basement runs through your nose. You have no idea where you are  or how you got here. ")
 print()
 time.sleep(2)
 print("As you look around you are filled with a sense of claustrophobia as you feel the tightly spaced walls of a cell. You've never been to prison or broke the law before.") 
