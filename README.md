@@ -1,0 +1,1 @@
+This is a text-based Escape Room game built on Python. Escape-Room.py is the one that is meant to be run, the other file was the one that is now unused. Choose the room you would like to play and follow the instructions on the terminal! 
